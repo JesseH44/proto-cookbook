@@ -1,13 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this cookbook, please cite it as below."
 authors:
-  # add additional entries for each author -- see https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md
   - family-names: Hoogs
     given-names: Jesse D.
     orcid: https://orcid.org/my-orcid?orcid=0009-0001-7374-9640
-    website: https://github.com/JesseH44 # optional
-    affiliation: University at Albany (State University of New York) # optional
-  - name: "Cookbook Template contributors" # use the 'name' field to acknowledge organizations
-    website: "https://github.com/ProjectPythia/cookbook-template/graphs/contributors"
-title: "Cookbook Template"
-abstract: "A sample cookbook description."
+    website: https://github.com/JesseH44
+    affiliation: University at Albany (State University of New York)
+  - name: "Proto Cookbook author" # use the 'name' field to acknowledge organizations
+    website: "https://github.com/JesseH44/proto-cookbook#contributors"
+title: "Proto Cookbook"
+abstract: "A prototype cookbook written for ATM533."

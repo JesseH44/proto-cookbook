@@ -3,19 +3,20 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
-  title: Prototype Project Repo
+  title: Prototype Cookbook
   github: https://github.com/JesseH44/proto-cookbook#
   authors:
     - name: Jesse Hoogs
   copyright: '2025'
   toc:
     - file: README.md
-    - title: Preamble
+    - title: Getting Started
       children:
-        - file: notebooks/how-to-cite.md
-    - title: Introduction
+        - file: notebooks/data-access.ipynb
+    - title: Visualization
       children:
-        - file: notebooks/notebook-template.ipynb
+        - file: notebooks/visualization.ipynb
+    - file: conclusion.md
   jupyter:
       binder:
-        repo: projectpythia/cookbook-template
+        repo: JesseH44/proto-cookbook

@@ -1,6 +1,9 @@
-name: cookbook-dev
+name: dev
 channels:
   - conda-forge
+  - xarray
+  - matplotlib
+  - numpy
 dependencies:
   - jupyterlab
   - mystmd
