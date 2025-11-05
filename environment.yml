@@ -4,6 +4,10 @@ channels:
   - xarray
   - matplotlib
   - numpy
+  - xarray
+  - cartopy
+  - geoviews
+  - pyproj
 dependencies:
   - jupyterlab
   - mystmd
