@@ -6,11 +6,11 @@
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
 [![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Project Pythia Cookbook covers working with the [**PIKART**](https://ar.pik-potsdam.de/?a=general) dataset to interpret and plot atmospheric rivers globally.
 
 ## Motivation
 
-Class
+This Prototype Cookbook was created for ATM433/533 as a prototype of the final project, which will also cover atmospheric river visualization with the [**PIKART**](https://ar.pik-potsdam.de/?a=general) dataset. This prototype cookbook functions as my submission for homework 3.
 
 ## Authors
 
@@ -18,21 +18,23 @@ Class
 
 ### Contributors
 
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
+<a href="https://github.com/JesseH44/proto-cookbook/graphs/contributors">
+  <img 
+    src="https://avatars.githubusercontent.com/u/31856946?v=4&size=64"
+     width=50 />
 </a>
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+This project contains two primary notebooks which should be viewed in the order: data_access.ipynb -> visualization.ipynb, as well as a conclusion.
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+### Section 1: Data Access
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+This notebook acts as a foundational notebook for interacting and understanding the [**PIKART**](https://ar.pik-potsdam.de/?a=general) dataset. Content covered includes accessing the data through the cloud via a url and the THREDDS server as well as the dataset format and content.
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+### Section 2: Visualization
 
-(Add content for this section, e.g., "Example workflows include ... ")
+This notebook expands on the data access notebook as an example workflow of visualizing the dataset. Focuses on a specific atmospheric river event and demonstrates both static and dynamic visualization.
 
 ## Running the Notebooks
 
@@ -64,22 +66,20 @@ executable book chapter.
 
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-(Replace "cookbook-example" with the title of your cookbooks)
-
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/JesseH44/proto-cookbook` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone git@github.com/JesseH44/proto-cookbook
    ```
 
 1. Move into the `cookbook-example` directory
    ```bash
-   cd cookbook-example
+   cd proto-cookbook
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate cookbook-example
+   conda activate proto-cookbook
    ```
 1. Move into the `notebooks` directory and start up Jupyterlab
    ```bash
